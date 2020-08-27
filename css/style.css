@@ -461,9 +461,9 @@ a:visited {
     font-size: 1.5em;
 }
 
-/*---------- Portfolio ----------*/
+/*---------- Galeri ----------*/
 
-#portfolio {
+#Galeri {
     padding-top: 185px;
 }
 .background-image-holder {
@@ -505,15 +505,15 @@ a:visited {
     overflow: hidden;
     position: relative;
 }
-.portfolio-sorting {
+.Galeri-sorting {
     padding-left: 15px;
     font-family: 'Open Sans', sans-serif;
 }
-.portfolio-sorting li a:hover,
-.portfolio-sorting li a.active {
+.Galeri-sorting li a:hover,
+.Galeri-sorting li a.active {
     border-bottom: 2px solid #222;
 }
-.portfolio-item {
+.Galeri-item {
     margin-bottom: 30px;
 }
 .item {

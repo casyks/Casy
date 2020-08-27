@@ -7,12 +7,12 @@ $(window).load(function() {
 });
 
 
-// Filtered Portfolio
+// Filtered Galeri
 
 var shuffleme = (function( $ ) {
   'use strict';
   var $grid = $('#grid'), //locate what we want to sort 
-      $filterOptions = $('.portfolio-sorting li'),  //locate the filter categories
+      $filterOptions = $('.Galeri-sorting li'),  //locate the filter categories
       $sizer = $grid.find('.shuffle_sizer'),    //sizer stores the size of the items
 
   init = function() {
@@ -43,7 +43,7 @@ var shuffleme = (function( $ ) {
 
       // Hide current label, show current label in title
       if ( !isActive ) {
-        $('.portfolio-sorting li a').removeClass('active');
+        $('.Galeri-sorting li a').removeClass('active');
       }
 
       $this.toggleClass('active');
@@ -93,7 +93,7 @@ var shuffleme = (function( $ ) {
 
 $(document).ready(function()
 {
-  shuffleme.init(); //filter portfolio
+  shuffleme.init(); //filter Galeri
 });
 
 
